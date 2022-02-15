@@ -1,5 +1,6 @@
 # Christopher
 A gate level simulator and gate level netlist standard specification in Cairo
 
-### Conceptual architecture
-![image](https://user-images.githubusercontent.com/59590480/152895140-92d0c72a-f38c-4b39-aa7c-9d6d25b585fa.png)
+### Proof of concept
+- `sim.cairo`: event-driven simulator using storage as queues
+- `gates_fulladder4_generated.cairo`: a generated contract representation for a 4b full adder circuit
